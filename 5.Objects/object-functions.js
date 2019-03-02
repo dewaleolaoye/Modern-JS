@@ -19,5 +19,17 @@ let getSummary = function(book) {
 
 let bookSummary = getSummary(myBook);
 let otherSummary = getSummary(otherBook);
-console.log(bookSummary.PageCountSummary);
-console.log(otherSummary.summary);
+// console.log(bookSummary.PageCountSummary);
+// console.log(otherSummary.summary);
+
+// challenge
+let converter = function(fahrenheit) {
+  return {
+    fahrenheit: fahrenheit,
+    kelvin: (fahrenheit + 459.67) * (5 / 9),
+    celcius: (fahrenheit - 32) * (5 / 9)
+  };
+};
+
+let result = converter(32);
+console.log(result);
