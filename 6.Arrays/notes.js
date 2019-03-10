@@ -8,5 +8,8 @@ const note = ["Note 1", "Note 2", "Note 3"];
 // console.log(note.shift());
 // console.log(note.unshift("Manipulating Arrays"));
 // console.log(note.shift());
-note.splice(0, 3);
-console.log(note);
+// note.splice(0, 3);
+note[3] = "Note 4";
+note.forEach(function(item, index) {
+  console.log(index + " " + item);
+});

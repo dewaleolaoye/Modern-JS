@@ -6,10 +6,15 @@ const todos = [
   "Andela Test"
 ];
 // challenge
-console.log(todos.splice(2, 1));
-todos.push("I'm a Software Engineer");
-console.log(todos);
-todos.shift();
-console.log(todos);
-console.log(`You have ${todos.length} todos`);
+// console.log(todos.splice(2, 1));
+// todos.push("I'm a Software Engineer");
+// console.log(todos);
+// todos.shift();
+// console.log(todos);
+// console.log(`You have ${todos.length} todos`);
 // console.log("Todo:", todos[todos.length - 2]);
+
+// challenge - forEach
+todos.forEach(function(item, index) {
+  console.log(index + 1 + ". " + item);
+});
