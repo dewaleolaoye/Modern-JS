@@ -5,8 +5,11 @@ const todos = [
   "Read about IoT",
   "Andela Test"
 ];
-
-console.log(`You have ${todos.length} todos`);
-
-console.log("Todo:", todos[todos.length - 1]);
-console.log("Todo:", todos[todos.length - 2]);
+// challenge
+console.log(todos.splice(2, 1));
+todos.push("I'm a Software Engineer");
+console.log(todos);
+todos.shift();
+console.log(todos);
+// console.log(`You have ${odos.length} todos`);
+// console.log("Todo:", todos[todos.length - 2]);
