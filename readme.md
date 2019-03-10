@@ -1,4 +1,4 @@
-# Learning JS with Andrew Mad
+# Learning JS with Andrew Mead
 
 ## Starting Date: March 1st
 
