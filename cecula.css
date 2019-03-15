@@ -1,0 +1,15 @@
+th.serial {
+  width: 75px;
+}
+
+.list-tem-table td:last-child {
+  /* text-align: left; */
+  /* padding-left: 26px; */
+  width: 90px;
+}
+
+.list-tem-table {
+  padding: 10px;
+  margin: 10px;
+  width: 90%;
+}
